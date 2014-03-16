@@ -1,0 +1,256 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		81AD0C4317923C65007CF87A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81AD0C4217923C65007CF87A /* Foundation.framework */; };
+		81AD0C4817923C65007CF87A /* CalcEngine.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 81AD0C4717923C65007CF87A /* CalcEngine.h */; };
+		81AD0C4A17923C65007CF87A /* CalcEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 81AD0C4917923C65007CF87A /* CalcEngine.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		81AD0C3D17923C65007CF87A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				81AD0C4817923C65007CF87A /* CalcEngine.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		81AD0C3F17923C65007CF87A /* libCalcEngine.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCalcEngine.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		81AD0C4217923C65007CF87A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		81AD0C4617923C65007CF87A /* CalcEngine-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CalcEngine-Prefix.pch"; sourceTree = "<group>"; };
+		81AD0C4717923C65007CF87A /* CalcEngine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalcEngine.h; sourceTree = "<group>"; };
+		81AD0C4917923C65007CF87A /* CalcEngine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalcEngine.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81AD0C3C17923C65007CF87A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AD0C4317923C65007CF87A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		81AD0C3617923C65007CF87A = {
+			isa = PBXGroup;
+			children = (
+				81AD0C4417923C65007CF87A /* CalcEngine */,
+				81AD0C4117923C65007CF87A /* Frameworks */,
+				81AD0C4017923C65007CF87A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		81AD0C4017923C65007CF87A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81AD0C3F17923C65007CF87A /* libCalcEngine.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81AD0C4117923C65007CF87A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				81AD0C4217923C65007CF87A /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		81AD0C4417923C65007CF87A /* CalcEngine */ = {
+			isa = PBXGroup;
+			children = (
+				81AD0C4717923C65007CF87A /* CalcEngine.h */,
+				81AD0C4917923C65007CF87A /* CalcEngine.m */,
+				81AD0C4517923C65007CF87A /* Supporting Files */,
+			);
+			path = CalcEngine;
+			sourceTree = "<group>";
+		};
+		81AD0C4517923C65007CF87A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				81AD0C4617923C65007CF87A /* CalcEngine-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		81AD0C3E17923C65007CF87A /* CalcEngine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81AD0C4D17923C65007CF87A /* Build configuration list for PBXNativeTarget "CalcEngine" */;
+			buildPhases = (
+				81AD0C3B17923C65007CF87A /* Sources */,
+				81AD0C3C17923C65007CF87A /* Frameworks */,
+				81AD0C3D17923C65007CF87A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CalcEngine;
+			productName = CalcEngine;
+			productReference = 81AD0C3F17923C65007CF87A /* libCalcEngine.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81AD0C3717923C65007CF87A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Jonathan Oh";
+			};
+			buildConfigurationList = 81AD0C3A17923C65007CF87A /* Build configuration list for PBXProject "CalcEngine" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 81AD0C3617923C65007CF87A;
+			productRefGroup = 81AD0C4017923C65007CF87A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81AD0C3E17923C65007CF87A /* CalcEngine */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81AD0C3B17923C65007CF87A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AD0C4A17923C65007CF87A /* CalcEngine.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		81AD0C4B17923C65007CF87A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		81AD0C4C17923C65007CF87A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		81AD0C4E17923C65007CF87A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_ENUM_CONVERSION = NO;
+				CLANG_WARN_INT_CONVERSION = NO;
+				DSTROOT = /tmp/CalcEngine.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CalcEngine/CalcEngine-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		81AD0C4F17923C65007CF87A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_ENUM_CONVERSION = NO;
+				CLANG_WARN_INT_CONVERSION = NO;
+				DSTROOT = /tmp/CalcEngine.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CalcEngine/CalcEngine-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81AD0C3A17923C65007CF87A /* Build configuration list for PBXProject "CalcEngine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81AD0C4B17923C65007CF87A /* Debug */,
+				81AD0C4C17923C65007CF87A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81AD0C4D17923C65007CF87A /* Build configuration list for PBXNativeTarget "CalcEngine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81AD0C4E17923C65007CF87A /* Debug */,
+				81AD0C4F17923C65007CF87A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 81AD0C3717923C65007CF87A /* Project object */;
+}
