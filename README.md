@@ -1,0 +1,1 @@
+This is a calculator compatible with iOS 6.0 or above. This is one of my first projects for the iOS. More improvements will be added at a later date.
